@@ -10,27 +10,9 @@ jobs:
     name: Build App
     runs-on: windows-latest
     steps:
-      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
-
-      # Cache Docker Image (Restoration before checking)
-      - name: Cache Docker Image
-        uses: actions/cache@v4
-        with:
-          path: C:\docker-cache\image.tar
-          key: docker-windows-unityci
-          restore-keys: |
-            docker-windows-unityci
-
-      # Restore Cached Docker Image
-      - name: Restore Cached Docker Image
-        run: |
-          if (Test-Path "C:\docker-cache\image.tar") {
-            docker load -i C:\docker-cache\image.tar
-          }
-        shell: powershell
-
+        
       # Cache Unity Library
       - uses: actions/cache@v4
         with:
@@ -52,12 +34,6 @@ jobs:
           buildsPath: exported
           customParameters: '-debugSymbols false'
 
-      # Cache built project to avoid re-uploading unchanged builds
-      # - uses: actions/cache@v4
-      #   with:
-      #     path: exported
-      #     key: build-output-${{ github.sha }}
-
       # Remove debug symbols (ChuniXR_BackUpThisFolder_ButDontShipItWithYourGame)
       - name: Remove Debug Symbols
         run: |
@@ -75,4 +51,4 @@ jobs:
         with:
           name: Exported
           path: exported
-          compression-level: 0  # Faster uploads
+          compression-level: 3
