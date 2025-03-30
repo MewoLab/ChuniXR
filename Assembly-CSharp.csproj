@@ -82,6 +82,7 @@
     <Compile Include="Assets\VRTemplateAssets\Scripts\Callout.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\CalloutGazeController.cs" />
     <Compile Include="Assets\Tap.cs" />
+    <Compile Include="Assets\Air.cs" />
     <Compile Include="Assets\Scripts\Settings Scripts\setturnsetting.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\StepManager.cs" />
     <Compile Include="Assets\VRTemplateAssets\Scripts\AnchorVisuals.cs" />

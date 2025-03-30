@@ -17,12 +17,10 @@ public class Tap : MonoBehaviour
     private void OnTriggerEnter(Collider Player)
     {
         io_send_slider((uint)cell, true);
-
-        Debug.Log("Ahhhh " + cell);
     }
 
     private void OnTriggerExit(Collider Player)
     {
-        io_send_slider((uint)cell, true);
+        io_send_slider((uint)cell, false);
     }
 }
