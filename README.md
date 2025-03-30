@@ -5,6 +5,11 @@ Inspired by projects like [MaiDXR](https://github.com/xiaopeng12138/MaiDXR)
 
 Contributions welcome.
 
+## Notes for Users and Developers
+
+DLLs are necessary for this to work properly.<br>
+They can be found [here](https://github.com/MewoLab/ChuniXR/releases/tag/IO).
+
 ## Specifications
 
 - **Unity Version**: 6000.0.43f1
