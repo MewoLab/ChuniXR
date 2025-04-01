@@ -1,5 +1,4 @@
 using System.Runtime.InteropServices;
-using UnityEditor.Rendering;
 using UnityEngine;
 
 public class Duplicate : MonoBehaviour
