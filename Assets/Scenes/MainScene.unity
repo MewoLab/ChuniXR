@@ -7788,7 +7788,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Mediator: {fileID: 6640002711115684111}
   m_TransformationPriority: 0
-  m_MoveSpeed: 0.05
+  m_MoveSpeed: 1
   m_EnableStrafe: 1
   m_EnableFly: 0
   m_UseGravity: 0
