@@ -51,7 +51,7 @@ jobs:
           targetPlatform: StandaloneWindows64
           buildName: ChuniXR
           buildsPath: exported
-          customParameters: '-debugSymbols false -nographics'
+          customParameters: '-debugSymbols false'
 
       # Cache built project to avoid re-uploading unchanged builds
       # - uses: actions/cache@v4
