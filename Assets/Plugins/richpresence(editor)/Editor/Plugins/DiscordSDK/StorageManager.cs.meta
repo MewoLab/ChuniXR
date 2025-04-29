@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: f117fb9d4ace5c34b8fd8cc721cca726
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178736
+  packageName: Editor Rich Presence
+  packageVersion: 3.1.2
+  assetPath: Assets/ERP/Editor/Plugins/DiscordSDK/StorageManager.cs
+  uploadId: 436313

@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 2b81933783bc3c2448c5d19141baea99
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178736
+  packageName: Editor Rich Presence
+  packageVersion: 3.1.2
+  assetPath: Assets/ERP/Editor/Plugins/DiscordSDK/Constants.cs
+  uploadId: 436313

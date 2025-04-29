@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 59dfeb4cf2bfe5d40bc44adef75bc71c
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 178736
+  packageName: Editor Rich Presence
+  packageVersion: 3.1.2
+  assetPath: Assets/ERP/Editor/ERPWindow.cs
+  uploadId: 436313
