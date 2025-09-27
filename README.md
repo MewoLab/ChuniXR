@@ -10,6 +10,8 @@ Contributions welcome.
 DLLs are necessary for this to work properly.<br>
 They can be found [here](https://github.com/MewoLab/ChuniXR/releases/tag/IO).
 
+> :warning: Start the game BEFORE starting ChuniXR, as the DLLs are designed to connect to ChuniXR, not vice versa
+
 ## Specifications
 
 - **Unity Version**: 6000.0.43f1
