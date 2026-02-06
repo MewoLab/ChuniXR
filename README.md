@@ -1,16 +1,18 @@
 # ChuniXR
 
+> :exclamation: This project is unmaintained and incomplete.<br>
+> Major functionality is missing or broken. <br>
+> Usage of ChuniXR is discouraged and support will not be provided.
+
 A VR simulator for a certain slider game.<br>
 Inspired by projects like [MaiDXR](https://github.com/xiaopeng12138/MaiDXR)
 
-Contributions welcome.
+## Installation
 
-## Notes for Users and Developers
+*Start the game before ChuniXR or you will experience issues*
 
 DLLs are necessary for this to work properly.<br>
 They can be found [here](https://github.com/MewoLab/ChuniXR/releases/tag/IO).
-
-> :warning: Start the game BEFORE starting ChuniXR, as the DLLs are designed to connect to ChuniXR, not vice versa
 
 ## Specifications
 
